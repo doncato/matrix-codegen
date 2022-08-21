@@ -30,6 +30,7 @@ To generate a DataMatrix Code which says "You scanned me" and save it as "datama
 $ ./matrix-codegen "You scanned me" datamatrix.png -d
 ```
 The same example with defined size:
+
 **Note:** with DataMatrix the size defines the pixels one black square represents, __not__ the resulting image size!
 ```
 $ ./matrix-codegen "You scanned me" datamatrix.png -d -s 10
